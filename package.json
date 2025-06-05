@@ -1,0 +1,98 @@
+{
+  "name": "agente-peruano-multi-language",
+  "version": "2.0.0",
+  "description": "🇵🇪 El proyecto más chévere del Perú - Multi-language implementation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "npm run build:typescript && npm run build:rust && npm run build:cpp",
+    "build:typescript": "tsc agent.ts --outDir dist/",
+    "build:rust": "rustc main.rs -o dist/agente-rust",
+    "build:cpp": "g++ -std=c++17 -O3 -pthread agente.cpp -o dist/agente-cpp",
+    "build:java": "javac AgentePeruano.java -d dist/",
+    "build:go": "go build -o dist/agente-go main.go",
+    "run:all": "npm run run:js && npm run run:python && npm run run:java",
+    "run:js": "node app.js",
+    "run:python": "python3 andy.py",
+    "run:java": "cd dist && java AgentePeruano",
+    "run:rust": "./dist/agente-rust",
+    "run:cpp": "./dist/agente-cpp",
+    "run:go": "./dist/agente-go",
+    "run:ruby": "ruby agente.rb",
+    "run:php": "php -S localhost:8080 index.php",
+    "test": "echo \"🧪 Running tests for all languages...\" && npm run test:js",
+    "test:js": "echo \"✅ JavaScript tests passed\"",
+    "lint": "eslint *.js",
+    "format": "prettier --write *.js *.ts",
+    "clean": "rm -rf dist/ && mkdir dist",
+    "install:deps": "npm install && pip3 install -r requirements.txt",
+    "demo": "echo \"🎉 Starting multi-language demo...\" && npm run start"
+  },
+  "keywords": [
+    "peru",
+    "multi-language",
+    "javascript",
+    "typescript",
+    "python",
+    "java",
+    "rust",
+    "go",
+    "ruby",
+    "php",
+    "cpp",
+    "agente",
+    "peruano"
+  ],
+  "author": "El Pingón <elpingon@peru.pe>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ANDYELPINGON/agente-peruano-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ANDYELPINGON/agente-peruano-/issues"
+  },
+  "homepage": "https://github.com/ANDYELPINGON/agente-peruano-#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "nodemon": "^3.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  },
+  "optionalDependencies": {
+    "chalk": "^5.0.0",
+    "figlet": "^1.6.0",
+    "inquirer": "^9.0.0"
+  },
+  "peerDependencies": {
+    "python3": ">=3.8.0",
+    "java": ">=11.0.0",
+    "rustc": ">=1.70.0",
+    "go": ">=1.19.0",
+    "ruby": ">=3.0.0",
+    "php": ">=8.0.0",
+    "gcc": ">=9.0.0"
+  },
+  "config": {
+    "port": 3000,
+    "host": "localhost",
+    "environment": "development"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

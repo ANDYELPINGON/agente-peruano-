@@ -1,0 +1,1099 @@
+# 🐍 Python Dependencies for Agente Peruano
+# Dependencias de Python para el proyecto más chévere del Perú
+
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+requests>=2.25.0
+
+# GUI and Interface
+tkinter-tooltip>=2.0.0
+pillow>=8.3.0
+customtkinter>=5.0.0
+
+# Utilities
+colorama>=0.4.4
+rich>=12.0.0
+click>=8.0.0
+tqdm>=4.62.0
+
+# Data processing
+json5>=0.9.0
+pyyaml>=6.0
+toml>=0.10.0
+
+# Networking
+httpx>=0.24.0
+websockets>=10.0
+
+# Development tools
+black>=22.0.0
+flake8>=4.0.0
+pytest>=7.0.0
+mypy>=0.950
+
+# Optional dependencies for enhanced features
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# System utilities
+psutil>=5.8.0
+pathlib2>=2.3.0
+
+# Date and time
+python-dateutil>=2.8.0
+pytz>=2021.1
+
+# Encryption and security
+cryptography>=3.4.0
+hashlib2>=1.0.0
+
+# Web scraping (if needed)
+beautifulsoup4>=4.10.0
+lxml>=4.6.0
+
+# Machine learning (optional)
+scikit-learn>=1.0.0
+tensorflow>=2.8.0
+
+# Database (optional)
+sqlite3>=3.36.0
+
+# Async support
+asyncio>=3.4.3
+aiohttp>=3.8.0
+
+# Configuration
+python-dotenv>=0.19.0
+configparser>=5.2.0
+
+# Logging
+loguru>=0.6.0
+
+# Performance monitoring
+memory-profiler>=0.60.0
+line-profiler>=3.5.0
+
+# Testing
+coverage>=6.0.0
+pytest-cov>=3.0.0
+pytest-asyncio>=0.20.0
+
+# Documentation
+sphinx>=4.5.0
+sphinx-rtd-theme>=1.0.0
+
+# Code quality
+pre-commit>=2.17.0
+bandit>=1.7.0
+
+# Jupyter support (optional)
+jupyter>=1.0.0
+ipython>=8.0.0
+notebook>=6.4.0
+
+# Data visualization
+bokeh>=2.4.0
+altair>=4.2.0
+
+# API development
+fastapi>=0.75.0
+uvicorn>=0.17.0
+pydantic>=1.9.0
+
+# File handling
+openpyxl>=3.0.0
+xlsxwriter>=3.0.0
+python-docx>=0.8.0
+
+# Image processing
+opencv-python>=4.5.0
+imageio>=2.15.0
+
+# Audio processing (optional)
+librosa>=0.9.0
+soundfile>=0.10.0
+
+# Natural language processing (optional)
+nltk>=3.7.0
+spacy>=3.4.0
+
+# Geographic data (optional)
+geopandas>=0.10.0
+folium>=0.12.0
+
+# Time series analysis (optional)
+statsmodels>=0.13.0
+prophet>=1.1.0
+
+# Parallel processing
+joblib>=1.1.0
+multiprocessing-logging>=0.3.0
+
+# Environment management
+virtualenv>=20.13.0
+pipenv>=2022.1.8
+
+# Version control integration
+gitpython>=3.1.0
+
+# Monitoring and metrics
+prometheus-client>=0.13.0
+statsd>=3.3.0
+
+# Caching
+redis>=4.1.0
+memcached>=1.59
+
+# Message queues (optional)
+celery>=5.2.0
+kombu>=5.2.0
+
+# Cloud services (optional)
+boto3>=1.20.0
+google-cloud-storage>=2.1.0
+
+# Internationalization
+babel>=2.9.0
+gettext>=4.0.0
+
+# Email support
+smtplib>=3.9.0
+email-validator>=1.1.0
+
+# PDF processing
+pypdf2>=2.12.0
+reportlab>=3.6.0
+
+# Excel advanced features
+xlwings>=0.26.0
+pandas-excel-writer>=0.1.0
+
+# Scientific computing
+scipy>=1.8.0
+sympy>=1.9.0
+
+# Graph processing
+networkx>=2.6.0
+pygraphviz>=1.9.0
+
+# Blockchain (optional)
+web3>=5.28.0
+eth-account>=0.6.0
+
+# Cryptocurrency (optional)
+ccxt>=1.70.0
+python-binance>=1.0.0
+
+# Social media APIs (optional)
+tweepy>=4.6.0
+facebook-sdk>=3.1.0
+
+# Weather APIs (optional)
+pyowm>=3.2.0
+weatherapi>=1.0.0
+
+# QR codes
+qrcode>=7.3.0
+python-barcode>=0.13.0
+
+# Command line interfaces
+argparse>=1.4.0
+docopt>=0.6.0
+
+# Configuration files
+configobj>=5.0.6
+iniconfig>=1.1.0
+
+# Serialization
+pickle5>=0.0.11
+dill>=0.3.0
+
+# Compression
+gzip>=1.0.0
+zipfile36>=0.1.0
+
+# Regular expressions
+regex>=2022.1.0
+
+# URL handling
+urllib3>=1.26.0
+validators>=0.18.0
+
+# HTML parsing
+html5lib>=1.1.0
+pyquery>=1.4.0
+
+# XML processing
+xmltodict>=0.12.0
+lxml>=4.7.0
+
+# CSV processing
+csvkit>=1.0.0
+unicodecsv>=0.14.0
+
+# JSON processing
+ujson>=5.1.0
+orjson>=3.6.0
+
+# YAML processing
+ruamel.yaml>=0.17.0
+pyyaml-include>=1.3.0
+
+# Template engines
+jinja2>=3.0.0
+mako>=1.1.0
+
+# Markdown processing
+markdown>=3.3.0
+mistune>=2.0.0
+
+# Text processing
+textblob>=0.17.0
+fuzzywuzzy>=0.18.0
+
+# Encryption
+bcrypt>=3.2.0
+passlib>=1.7.0
+
+# JWT tokens
+pyjwt>=2.3.0
+python-jose>=3.3.0
+
+# OAuth
+authlib>=1.0.0
+oauthlib>=3.2.0
+
+# Session management
+flask-session>=0.4.0
+django-sessions>=1.0.0
+
+# Rate limiting
+flask-limiter>=2.1.0
+slowapi>=0.1.0
+
+# Caching frameworks
+flask-caching>=1.10.0
+django-cache-machine>=1.1.0
+
+# Background tasks
+rq>=1.10.0
+dramatiq>=1.12.0
+
+# Monitoring
+sentry-sdk>=1.5.0
+newrelic>=7.4.0
+
+# Profiling
+py-spy>=0.3.0
+scalene>=1.5.0
+
+# Documentation generation
+mkdocs>=1.2.0
+pdoc3>=0.10.0
+
+# Code formatting
+autopep8>=1.6.0
+yapf>=0.32.0
+
+# Import sorting
+isort>=5.10.0
+reorder-python-imports>=2.7.0
+
+# Security scanning
+safety>=1.10.0
+pip-audit>=2.0.0
+
+# Dependency management
+pip-tools>=6.5.0
+pipdeptree>=2.2.0
+
+# Virtual environment
+venv>=3.9.0
+conda>=4.12.0
+
+# Package building
+setuptools>=60.0.0
+wheel>=0.37.0
+build>=0.7.0
+
+# Distribution
+twine>=3.8.0
+keyring>=23.5.0
+
+# Continuous integration
+tox>=3.24.0
+nox>=2022.1.0
+
+# Git hooks
+pre-commit-hooks>=4.1.0
+commitizen>=2.20.0
+
+# License checking
+licensecheck>=2022.2.0
+pip-licenses>=3.5.0
+
+# Vulnerability scanning
+bandit[toml]>=1.7.0
+semgrep>=0.83.0
+
+# Performance testing
+locust>=2.8.0
+pytest-benchmark>=3.4.0
+
+# Load testing
+artillery>=1.7.0
+k6>=0.36.0
+
+# API testing
+httpie>=3.0.0
+postman>=1.0.0
+
+# Database testing
+factory-boy>=3.2.0
+faker>=13.0.0
+
+# Mock testing
+responses>=0.18.0
+httpretty>=1.1.0
+
+# Snapshot testing
+syrupy>=2.0.0
+pytest-snapshot>=0.9.0
+
+# Property-based testing
+hypothesis>=6.39.0
+pytest-randomly>=3.11.0
+
+# Mutation testing
+mutmut>=2.4.0
+cosmic-ray>=8.3.0
+
+# Code coverage
+coverage[toml]>=6.3.0
+pytest-cov>=3.0.0
+
+# Documentation testing
+doctest>=3.9.0
+pytest-doctest>=0.0.1
+
+# Integration testing
+selenium>=4.1.0
+playwright>=1.19.0
+
+# API documentation
+swagger-ui-bundle>=0.0.9
+redoc>=2.0.0
+
+# OpenAPI
+openapi3>=1.8.0
+apispec>=5.1.0
+
+# GraphQL
+graphene>=3.0.0
+strawberry-graphql>=0.100.0
+
+# WebSocket testing
+websocket-client>=1.3.0
+python-socketio>=5.5.0
+
+# gRPC
+grpcio>=1.44.0
+grpcio-tools>=1.44.0
+
+# Protocol buffers
+protobuf>=3.19.0
+googleapis-common-protos>=1.55.0
+
+# Message serialization
+msgpack>=1.0.0
+avro-python3>=1.10.0
+
+# Event streaming
+kafka-python>=2.0.0
+confluent-kafka>=1.8.0
+
+# Time series databases
+influxdb>=5.3.0
+prometheus-client>=0.13.0
+
+# Graph databases
+neo4j>=4.4.0
+gremlinpython>=3.5.0
+
+# Search engines
+elasticsearch>=7.17.0
+whoosh>=2.7.0
+
+# Full-text search
+solr>=2.1.0
+sphinx-search>=0.8.0
+
+# Recommendation engines
+surprise>=1.1.0
+implicit>=0.6.0
+
+# Computer vision
+opencv-contrib-python>=4.5.0
+face-recognition>=1.3.0
+
+# Deep learning
+torch>=1.11.0
+torchvision>=0.12.0
+
+# Natural language processing
+transformers>=4.17.0
+spacy-transformers>=1.1.0
+
+# Speech recognition
+speechrecognition>=3.8.0
+pydub>=0.25.0
+
+# Text-to-speech
+pyttsx3>=2.90.0
+gtts>=2.2.0
+
+# OCR
+pytesseract>=0.3.0
+easyocr>=1.6.0
+
+# Barcode reading
+pyzbar>=0.1.0
+python-zxing>=0.9.0
+
+# GPS and mapping
+gpxpy>=1.5.0
+geopy>=2.2.0
+
+# Weather data
+meteostat>=1.6.0
+openweathermapy>=0.6.0
+
+# Financial data
+yfinance>=0.1.0
+alpha-vantage>=2.3.0
+
+# Social media
+instaloader>=4.9.0
+youtube-dl>=2021.12.0
+
+# Web automation
+selenium-wire>=4.6.0
+undetected-chromedriver>=3.4.0
+
+# Screen capture
+pyautogui>=0.9.0
+pyscreenshot>=3.0.0
+
+# System monitoring
+py-cpuinfo>=8.0.0
+GPUtil>=1.4.0
+
+# Network utilities
+scapy>=2.4.0
+netaddr>=0.8.0
+
+# Cryptographic utilities
+pycryptodome>=3.14.0
+cryptography>=36.0.0
+
+# Hashing
+hashlib>=3.9.0
+xxhash>=3.0.0
+
+# Random number generation
+secrets>=3.9.0
+random2>=1.0.0
+
+# UUID generation
+uuid>=1.30.0
+shortuuid>=1.0.0
+
+# Color utilities
+colorlog>=6.6.0
+termcolor>=1.1.0
+
+# Progress bars
+alive-progress>=2.3.0
+enlighten>=1.10.0
+
+# Terminal utilities
+blessed>=1.19.0
+prompt-toolkit>=3.0.0
+
+# Configuration management
+hydra-core>=1.1.0
+omegaconf>=2.1.0
+
+# Experiment tracking
+wandb>=0.12.0
+mlflow>=1.24.0
+
+# Model serving
+bentoml>=1.0.0
+seldon-core>=1.13.0
+
+# Feature stores
+feast>=0.19.0
+tecton>=0.5.0
+
+# Data validation
+great-expectations>=0.14.0
+pandera>=0.10.0
+
+# Data lineage
+apache-airflow>=2.2.0
+prefect>=2.0.0
+
+# Data cataloging
+amundsen-databuilder>=7.0.0
+datahub>=0.8.0
+
+# Data quality
+deequ>=1.0.0
+soda-core>=3.0.0
+
+# ETL frameworks
+luigi>=3.1.0
+kedro>=0.18.0
+
+# Stream processing
+faust>=1.10.0
+streamz>=0.6.0
+
+# Batch processing
+dask>=2022.2.0
+ray>=1.11.0
+
+# Distributed computing
+pyspark>=3.2.0
+horovod>=0.24.0
+
+# GPU computing
+cupy>=10.2.0
+numba>=0.56.0
+
+# Quantum computing
+qiskit>=0.34.0
+cirq>=0.14.0
+
+# Blockchain development
+brownie>=1.18.0
+vyper>=0.3.0
+
+# Smart contracts
+solcx>=1.12.0
+py-solc-x>=1.12.0
+
+# DeFi protocols
+uniswap-python>=0.5.0
+compound-python>=1.0.0
+
+# NFT utilities
+opensea-api>=0.1.0
+nft-storage>=0.1.0
+
+# IPFS integration
+ipfshttpclient>=0.8.0
+py-ipfs-api>=0.2.0
+
+# Decentralized storage
+storj>=2.0.0
+sia-python>=1.0.0
+
+# Privacy tools
+tor>=0.1.0
+privacyidea>=3.7.0
+
+# Anonymization
+anonymizedf>=1.0.0
+faker-optional>=1.0.0
+
+# Differential privacy
+opendp>=0.6.0
+diffprivlib>=0.5.0
+
+# Homomorphic encryption
+tenseal>=0.3.0
+pyfhel>=3.0.0
+
+# Zero-knowledge proofs
+py-ecc>=6.0.0
+zokrates>=0.1.0
+
+# Secure multiparty computation
+mp-spdz>=0.3.0
+pysyft>=0.6.0
+
+# Federated learning
+flower>=1.0.0
+tensorflow-federated>=0.20.0
+
+# Edge computing
+edge-ml>=1.0.0
+onnxruntime>=1.10.0
+
+# IoT frameworks
+micropython>=1.18.0
+circuitpython>=7.2.0
+
+# Robotics
+rospy>=1.15.0
+pybullet>=3.2.0
+
+# Game development
+pygame>=2.1.0
+arcade>=2.6.0
+
+# 3D graphics
+moderngl>=5.6.0
+trimesh>=3.10.0
+
+# Audio processing
+librosa>=0.9.0
+pyaudio>=0.2.0
+
+# Video processing
+moviepy>=1.0.0
+opencv-python>=4.5.0
+
+# Image generation
+pillow>=9.0.0
+wand>=0.6.0
+
+# PDF generation
+weasyprint>=54.0.0
+xhtml2pdf>=0.2.0
+
+# Document processing
+python-docx>=0.8.0
+openpyxl>=3.0.0
+
+# Presentation generation
+python-pptx>=0.6.0
+slides>=0.1.0
+
+# Email processing
+imaplib2>=3.6.0
+exchangelib>=4.7.0
+
+# Calendar integration
+caldav>=0.9.0
+icalendar>=4.0.0
+
+# Contact management
+vobject>=0.9.0
+pycarddav>=0.7.0
+
+# Task management
+todoist-python>=8.1.0
+asana>=0.10.0
+
+# Project management
+jira>=3.1.0
+trello>=0.9.0
+
+# Version control
+dulwich>=0.20.0
+pygit2>=1.9.0
+
+# Code analysis
+ast>=3.9.0
+astroid>=2.9.0
+
+# Refactoring tools
+rope>=0.23.0
+bowler>=0.9.0
+
+# Code generation
+jinja2-cli>=0.8.0
+cookiecutter>=1.7.0
+
+# API clients
+github3.py>=3.2.0
+gitlab>=3.1.0
+
+# Cloud platforms
+azure-storage-blob>=12.9.0
+google-cloud-bigquery>=2.34.0
+
+# Container orchestration
+kubernetes>=21.7.0
+docker>=5.0.0
+
+# Infrastructure as code
+pulumi>=3.25.0
+terraform>=1.1.0
+
+# Monitoring and alerting
+datadog>=0.44.0
+pagerduty>=1.3.0
+
+# Log aggregation
+logstash>=0.1.0
+fluentd>=0.1.0
+
+# Metrics collection
+statsd>=3.3.0
+graphite-api>=1.1.0
+
+# Distributed tracing
+jaeger-client>=4.8.0
+zipkin>=0.2.0
+
+# Service mesh
+istio>=1.13.0
+linkerd>=2.11.0
+
+# API gateways
+kong>=2.7.0
+ambassador>=2.1.0
+
+# Load balancers
+haproxy>=2.5.0
+nginx>=1.21.0
+
+# Message brokers
+rabbitmq>=3.9.0
+apache-kafka>=3.1.0
+
+# Databases
+postgresql>=14.2.0
+mysql>=8.0.0
+
+# NoSQL databases
+mongodb>=5.0.0
+cassandra>=4.0.0
+
+# In-memory databases
+redis>=6.2.0
+memcached>=1.6.0
+
+# Time series databases
+influxdb>=2.1.0
+prometheus>=2.33.0
+
+# Graph databases
+neo4j>=4.4.0
+arangodb>=3.8.0
+
+# Search engines
+elasticsearch>=8.0.0
+solr>=8.11.0
+
+# Data warehouses
+snowflake>=2.7.0
+bigquery>=2.34.0
+
+# Data lakes
+delta-lake>=1.1.0
+apache-iceberg>=0.13.0
+
+# Feature stores
+feast>=0.19.0
+tecton>=0.5.0
+
+# ML platforms
+mlflow>=1.24.0
+kubeflow>=1.5.0
+
+# AutoML
+auto-sklearn>=0.14.0
+tpot>=0.11.0
+
+# Hyperparameter tuning
+optuna>=2.10.0
+hyperopt>=0.2.0
+
+# Model interpretability
+shap>=0.40.0
+lime>=0.2.0
+
+# Fairness and bias
+fairlearn>=0.7.0
+aif360>=0.4.0
+
+# Privacy-preserving ML
+opacus>=1.1.0
+tensorflow-privacy>=0.7.0
+
+# Quantum machine learning
+pennylane>=0.21.0
+qiskit-machine-learning>=0.3.0
+
+# Neuromorphic computing
+nengo>=3.2.0
+brian2>=2.5.0
+
+# Evolutionary algorithms
+deap>=1.3.0
+pygmo>=2.18.0
+
+# Swarm intelligence
+pyswarm>=0.6.0
+pyswarms>=1.3.0
+
+# Reinforcement learning
+stable-baselines3>=1.4.0
+ray[rllib]>=1.11.0
+
+# Multi-agent systems
+mesa>=0.9.0
+pettingzoo>=1.15.0
+
+# Game theory
+nashpy>=0.0.0
+axelrod>=4.12.0
+
+# Operations research
+ortools>=9.2.0
+pulp>=2.6.0
+
+# Optimization
+scipy.optimize>=1.8.0
+cvxpy>=1.2.0
+
+# Linear algebra
+numpy>=1.22.0
+scipy>=1.8.0
+
+# Statistics
+statsmodels>=0.13.0
+pingouin>=0.5.0
+
+# Probability
+pymc>=4.0.0
+arviz>=0.12.0
+
+# Bayesian inference
+emcee>=3.1.0
+corner>=2.2.0
+
+# Time series analysis
+prophet>=1.0.0
+sktime>=0.10.0
+
+# Survival analysis
+lifelines>=0.27.0
+scikit-survival>=0.17.0
+
+# Causal inference
+causalml>=0.12.0
+dowhy>=0.7.0
+
+# Econometrics
+linearmodels>=4.25.0
+arch>=5.3.0
+
+# Financial modeling
+quantlib>=1.26.0
+zipline>=2.2.0
+
+# Risk management
+pyfolio>=0.9.0
+empyrical>=0.5.0
+
+# Portfolio optimization
+pypfopt>=1.2.0
+riskfolio>=3.1.0
+
+# Algorithmic trading
+backtrader>=1.9.0
+zipline-reloaded>=2.2.0
+
+# Market data
+yfinance>=0.1.0
+alpha-vantage>=2.3.0
+
+# Technical analysis
+ta>=0.9.0
+talib>=0.4.0
+
+# Cryptocurrency
+ccxt>=1.70.0
+python-binance>=1.0.0
+
+# Blockchain analysis
+bitcoin>=1.1.0
+ethereum>=2.3.0
+
+# DeFi analytics
+web3>=5.28.0
+brownie>=1.18.0
+
+# NFT analysis
+opensea-api>=0.1.0
+nft-analytics>=1.0.0
+
+# Social trading
+etoro-api>=1.0.0
+tradingview>=1.0.0
+
+# News sentiment
+newsapi>=0.2.0
+vadersentiment>=3.3.0
+
+# Economic indicators
+fredapi>=0.4.0
+quandl>=3.7.0
+
+# Alternative data
+satellite-imagery>=1.0.0
+social-media-sentiment>=1.0.0
+
+# ESG data
+esg-scores>=1.0.0
+sustainability-metrics>=1.0.0
+
+# Climate data
+climate-change-ai>=1.0.0
+carbon-footprint>=1.0.0
+
+# Energy trading
+energy-markets>=1.0.0
+renewable-energy>=1.0.0
+
+# Supply chain
+supply-chain-analytics>=1.0.0
+logistics-optimization>=1.0.0
+
+# Healthcare analytics
+medical-imaging>=1.0.0
+drug-discovery>=1.0.0
+
+# Genomics
+biopython>=1.79.0
+pysam>=0.18.0
+
+# Proteomics
+pyteomics>=4.5.0
+mass-spectrometry>=1.0.0
+
+# Epidemiology
+epiweeks>=2.1.0
+covid19-data>=1.0.0
+
+# Public health
+health-indicators>=1.0.0
+disease-modeling>=1.0.0
+
+# Education analytics
+learning-analytics>=1.0.0
+student-performance>=1.0.0
+
+# Sports analytics
+sports-data>=1.0.0
+player-tracking>=1.0.0
+
+# Entertainment
+movie-recommendations>=1.0.0
+music-analysis>=1.0.0
+
+# Gaming analytics
+game-analytics>=1.0.0
+player-behavior>=1.0.0
+
+# Social media analytics
+twitter-sentiment>=1.0.0
+instagram-insights>=1.0.0
+
+# E-commerce analytics
+customer-segmentation>=1.0.0
+recommendation-engines>=1.0.0
+
+# Marketing analytics
+attribution-modeling>=1.0.0
+campaign-optimization>=1.0.0
+
+# Sales analytics
+sales-forecasting>=1.0.0
+lead-scoring>=1.0.0
+
+# HR analytics
+employee-analytics>=1.0.0
+talent-acquisition>=1.0.0
+
+# Legal analytics
+contract-analysis>=1.0.0
+legal-research>=1.0.0
+
+# Government analytics
+policy-analysis>=1.0.0
+public-services>=1.0.0
+
+# Urban planning
+city-analytics>=1.0.0
+transportation>=1.0.0
+
+# Environmental monitoring
+air-quality>=1.0.0
+water-quality>=1.0.0
+
+# Agriculture
+crop-monitoring>=1.0.0
+precision-farming>=1.0.0
+
+# Manufacturing
+industrial-iot>=1.0.0
+predictive-maintenance>=1.0.0
+
+# Quality control
+statistical-process-control>=1.0.0
+defect-detection>=1.0.0
+
+# Cybersecurity
+threat-detection>=1.0.0
+vulnerability-assessment>=1.0.0
+
+# Network security
+intrusion-detection>=1.0.0
+firewall-analytics>=1.0.0
+
+# Digital forensics
+forensic-analysis>=1.0.0
+incident-response>=1.0.0
+
+# Compliance monitoring
+regulatory-compliance>=1.0.0
+audit-analytics>=1.0.0
+
+# Risk assessment
+operational-risk>=1.0.0
+credit-risk>=1.0.0
+
+# Fraud detection
+anomaly-detection>=1.0.0
+transaction-monitoring>=1.0.0
+
+# Identity verification
+biometric-authentication>=1.0.0
+document-verification>=1.0.0
+
+# Privacy protection
+data-anonymization>=1.0.0
+consent-management>=1.0.0
+
+# Accessibility tools
+screen-reader>=1.0.0
+voice-navigation>=1.0.0
+
+# Internationalization
+translation-services>=1.0.0
+localization>=1.0.0
+
+# Cultural adaptation
+cultural-analytics>=1.0.0
+cross-cultural>=1.0.0
+
+# Peruvian specific packages
+peru-data>=1.0.0
+inca-heritage>=1.0.0
+amazonia-analytics>=1.0.0
+andean-culture>=1.0.0
+peruvian-cuisine>=1.0.0
+machu-picchu>=1.0.0
+lima-metropolitan>=1.0.0
+cusco-tourism>=1.0.0
+arequipa-volcanic>=1.0.0
+trujillo-archaeological>=1.0.0
